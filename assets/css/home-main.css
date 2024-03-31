@@ -92,6 +92,7 @@ section img {
 
 section img#sun {
     mix-blend-mode: screen;
+    z-index: -2;
 }
 
 section img#mount {
@@ -100,7 +101,7 @@ section img#mount {
 
 #text {
     position: absolute;
-    right: -300px;
+    right: -70%;
     color: #fff;
     white-space: nowrap;
     font-size: 7.5vw;

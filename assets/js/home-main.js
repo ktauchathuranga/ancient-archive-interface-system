@@ -9,8 +9,8 @@ let header = document.querySelector('header');
 window.addEventListener('scroll', function() {
     let value = this.window.scrollY;
     
-    cloud.style.left = value * 0.25 + 'px';
-    sun.style.top = value * 1.01 + 'px';
+    sun.style.top = value * 0.25 + 'px';
+    cloud.style.left = value * 1.05 + 'px';
     sigiriya.style.top = value * 0.5 + 'px';
     mount.style.left = value * 0 + 'px';
     text.style.marginRight = value * 4 + 'px';
