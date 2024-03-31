@@ -1,0 +1,37 @@
+select{
+    width: 500px;
+    height: 30px;
+}
+
+
+.photoNtopicNps1,
+.photoNtopicNps2,
+.photoNtopicNps3
+
+
+{
+    text-align: center;
+}
+
+.hiddens1,
+.hiddens2,
+.hiddens3{
+    display: none;
+}
+    
+.btns1,
+.btns2,
+.btns3
+
+{
+    cursor: pointer;
+}
+
+
+
+.s1p1,
+.s2p2,
+.s3p3
+{
+    font-size: 50px;
+}
