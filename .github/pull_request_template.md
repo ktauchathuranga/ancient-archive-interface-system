@@ -15,7 +15,7 @@ Please delete options that are not relevant.
 
 # Checklist:
 
-- [ ] My code follows the style guidelines of this project | [CONTRIBUTION GUIDE](.github/CONTRIBUTING.md)
+- [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my code
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
