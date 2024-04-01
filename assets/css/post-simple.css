@@ -6,22 +6,60 @@ select{
 
 .photoNtopicNps1,
 .photoNtopicNps2,
-.photoNtopicNps3
+.photoNtopicNps3,
+
+.photoNtopicNpst1,
+.photoNtopicNpst2,
+.photoNtopicNpst3,
+
+.photoNtopicNpt1,
+.photoNtopicNpt2,
+.photoNtopicNpt3
+
+
+
+
+
 
 
 {
     text-align: center;
 }
 
+
 .hiddens1,
 .hiddens2,
-.hiddens3{
+.hiddens3,
+
+.hiddenst1,
+.hiddenst2,
+.hiddenst3,
+
+.hiddent1,
+.hiddent2,
+.hiddent3
+
+{
     display: none;
 }
     
 .btns1,
 .btns2,
-.btns3
+.btns3,
+
+.btnst1,
+.btnst2,
+.btnst3,
+
+
+.btnt1,
+.btnt2,
+.btnt3
+
+
+
+
+
 
 {
     cursor: pointer;
@@ -31,7 +69,36 @@ select{
 
 .s1p1,
 .s2p2,
-.s3p3
+.s3p3,
+
+.st1p1,
+.st2p2,
+.st3p3,
+
+.t1p1,
+.t2p2,
+.t3p3
+
 {
     font-size: 50px;
+}
+
+.photos1,
+.photos2,
+.photos3,
+
+.photost1,
+.photost2,
+.photost3,
+
+.photot1,
+.photot2,
+.photot3
+
+
+
+
+{
+    width: 600px;
+    height: 300px;
 }
