@@ -24,4 +24,7 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
        - home
        - post
        - > make your section folder here for media
-   - html's
+   - HTML's
+
+> [!NOTE]  
+> Theme should be using ![#2b1055](https://placehold.co/5/2b1055/2b1055.png) `#2b1055` to ![#7597de](https://placehold.co/1/7597de/7597de.png) `#7597de` and it shades only.
