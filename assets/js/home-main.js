@@ -6,7 +6,7 @@ let mounb = document.getElementById("moun-back");
 let mounf = document.getElementById("moun-front");
 let text = document.getElementById("text");
 let btn = document.getElementById("btn");
-let header = document.querySelector('header');
+let header = document.getElementById("header");
 
 window.addEventListener('scroll', function() {
     let value = this.window.scrollY;
