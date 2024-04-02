@@ -52,11 +52,7 @@ $(document).ready(function(){
         $('.t2p2').animate({
             height:'toggle'
         })
-
-
-    
-
-        
+  
         
     })
 
@@ -65,24 +61,29 @@ $(document).ready(function(){
             height:'toggle'
         })
 
-
-    
-
-        
         
     })
-   
-   
-
-
-
-
-
-
-
-
-    
-
+$(document).ready(function(){
+    $("select #choose").change(function() {
+        // Get the selected value from the dropdown
+        const selectedValue = document.getElementById('choose').value();
+        
+        // Show options based on the selected value
+        if (selectedValue == "temple") {
+            $(".temple").show();
+            $(".sellipi").hide();
+            $(".statue").hide();
+        } else if (selectedValue == "sellipi") {
+            $(".sellipi").show();
+            $(".temple").hide();
+            $(".statue").hide();
+        } else if (selectedValue == "statue") {
+            $(".statue").show();
+            $(".temple").hide();
+            $(".sellipi").hide();
+        }
+    });
+});
 
 
     
