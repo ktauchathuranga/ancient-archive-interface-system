@@ -1,26 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>SVG Map with Tooltips</title>
-    <style>
-        .hovered {
-            fill: red !important;
-        }
-
-        #tooltip {
-            position: absolute;
-            background-color: lightgray;
-            padding: 5px;
-            border: 1px solid black;
-            display: none;
-        }
-    </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/map-main.css">
+    <script src="assets/js/header-footer.js"></script>
 </head>
 
 <body>
-
+    <div id="header"></div>
     <h1>My second SVG</h1>
 
     <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -107,55 +98,9 @@
     </svg>
 
     <div id="tooltip"></div>
-    <script>
-        $(document).ready(function () {
-            var isClicked = false;
-            var clickedSection = null;
 
-            $('path').click(function () {
-                var currentSection = this;
-
-                $(currentSection).toggleClass('hovered');
-
-                if (clickedSection && clickedSection !== currentSection) {
-                    $(clickedSection).css('fill', '').removeClass('hovered');
-                }
-
-                var title = $(currentSection).attr('title');
-                $('#tooltip').text(title).show();
-
-                if (clickedSection === currentSection) {
-                    isClicked = !isClicked;
-                } else {
-                    isClicked = true;
-                    clickedSection = currentSection;
-                }
-
-                if (!isClicked) {
-                    $('path').not(currentSection).css('fill', '').removeClass('hovered');
-                    clickedSection = null;
-                }
-            });
-
-            $('path').hover(function () {
-                if (!isClicked) {
-                    var title = $(this).attr('title');
-                    $('#tooltip').text(title).show();
-                    $(this).css('fill', 'red');
-                }
-            }, function () {
-                if (!$(this).hasClass('hovered') && !isClicked) {
-                    $(this).css('fill', '');
-                    $('#tooltip').hide();
-                }
-            });
-        });
-
-    </script>
-
-
-
-
+    <script src="assets/js/map-main.js"></script>
+    <div id="footer"></div>
 </body>
 
 </html>
