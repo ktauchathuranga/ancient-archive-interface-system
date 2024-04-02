@@ -39,4 +39,10 @@ $(document).ready(function () {
             $('#tooltip').hide();
         }
     });
+
+    $('#map').mouseleave(function () {
+        if (!isClicked) {
+            $('#tooltip').text("Hoveer your mouse over the map.\nClick to stop the current state.\nClick again to resume.").show();
+        }
+    });
 });
