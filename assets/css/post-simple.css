@@ -17,11 +17,6 @@ select{
 .photoNtopicNpt3
 
 
-
-
-
-
-
 {
     text-align: center;
 }
@@ -56,11 +51,6 @@ select{
 .btnt2,
 .btnt3
 
-
-
-
-
-
 {
     cursor: pointer;
 }
@@ -94,11 +84,14 @@ select{
 .photot1,
 .photot2,
 .photot3
-
-
-
-
 {
     width: 600px;
     height: 300px;
+}
+.ani{
+    transition: 1s;
+}
+.ani1:hover{
+    transform: scale(1.1);
+    z-index: 1;
 }
