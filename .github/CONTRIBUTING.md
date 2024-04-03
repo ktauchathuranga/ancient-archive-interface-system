@@ -53,7 +53,11 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 <body>
     <div id="header"></div>
 
-    <!-- YOUR CODE GOES HERE -->
+    <div class="sec">
+        <h2><!-- YOUR SECTION TITLE GOES HERE --></h2>
+        <hr>
+            <!-- YOUR CODE GOES HERE -->
+    </div>
 
     <div id="footer"></div>
 </body>
