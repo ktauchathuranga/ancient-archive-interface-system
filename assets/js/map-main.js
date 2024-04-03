@@ -90,7 +90,7 @@ $(document).ready(function () {
                 console.log(linkHtml);
             }
 
-            $(this).css('fill', 'red');
+            $(this).css('fill', '#4a488e');
         }
     }, function () {
         if (!$(this).hasClass('hovered') && !isClicked) {
