@@ -84,11 +84,8 @@ body {
 
 header {
     content: '';
-    font-size: 18px;
-    width: 100%;
     background: linear-gradient(to top, #1c0522, #4a488e);
     color: #fff;
-    padding: 30px 0;
 }
 
 /* section must include this */
