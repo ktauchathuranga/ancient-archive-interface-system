@@ -9,5 +9,7 @@ headerLinks.forEach(function(link) {
     if (currentPage === linkClass + '.html') {
         console.log("Match found for class: " + linkClass);
         link.querySelector('a').classList.add('active');
+    } else {
+        document.querySelector('.index a').classList.add('active');
     }
 });
