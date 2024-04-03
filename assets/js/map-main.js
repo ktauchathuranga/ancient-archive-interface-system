@@ -59,7 +59,7 @@ $(document).ready(function () {
                 linkHtml += '<li>' + link + '</li>';
             });
             linkHtml += '</ul>';
-            $('#boxlink').append(linkHtml);
+            $('#boxlink').html(linkHtml);
         }
 
         if (clickedSection === currentSection) {
