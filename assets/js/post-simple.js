@@ -17,4 +17,74 @@ $(document).ready(function(){
             height:'toggle'
         })
     })
+
+
+
+
+
+    $('.btnst11').click(function(){
+        $('.st1p1').animate({
+            height:'toggle'
+        })
+    })
+    $('.btnst22').click(function(){
+        $('.st2p2').animate({
+            height:'toggle'
+        })
+    })
+    $('.btnst33').click(function(){
+        $('.st3p3').animate({
+            height:'toggle'
+        })
+    })
+
+
+
+
+
+    $('.btnt11').click(function(){
+        $('.t1p1').animate({
+            height:'toggle'
+        })
+        
+    })
+    $('.btnt22').click(function(){
+        $('.t2p2').animate({
+            height:'toggle'
+        })
+  
+        
+    })
+
+    $('.btnt33').click(function(){
+        $('.t3p3').animate({
+            height:'toggle'
+        })
+
+        
+    })
+$(document).ready(function(){
+    $("select #choose").change(function() {
+        // Get the selected value from the dropdown
+        const selectedValue = document.getElementById('choose').value();
+        
+        // Show options based on the selected value
+        if (selectedValue == "temple") {
+            $(".temple").show();
+            $(".sellipi").hide();
+            $(".statue").hide();
+        } else if (selectedValue == "sellipi") {
+            $(".sellipi").show();
+            $(".temple").hide();
+            $(".statue").hide();
+        } else if (selectedValue == "statue") {
+            $(".statue").show();
+            $(".temple").hide();
+            $(".sellipi").hide();
+        }
+    });
+});
+
+
+    
 })
