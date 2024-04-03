@@ -23,7 +23,7 @@ header {
 }
 
 .hovered {
-    fill: red !important;
+    fill: #155269 !important;
 }
 
 .sec {
@@ -52,31 +52,44 @@ svg {
 .box {
     width: 60%;
     height: auto;
-    border: 1px solid black;
+    border: none;
     padding: 10px;
     margin: 10px;
-    background: linear-gradient(to bottom right, #155269, #84BFB0);
+    background: linear-gradient(to bottom right, rgba(52, 32, 101, 0.4), rgba(170, 212, 197, 0.4)); /* Adjust the transparency as needed */
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #tooltip {
     text-align: center;
     font-weight: bolder;
-    font-size: large;
-    background: linear-gradient(to right, white, #ff7e5f, #feb47b, #ffcf66, #ffeb78, #cfff95, white);
+    font-size: 20px;
+    /* background: linear-gradient(to right, #cbdf9a, #552b3a); */
     background-clip: text;
-    color: transparent;
+    /* color: transparent; */
+    color: #fff;
 }
 
 #boxlink {
     padding-left: 10px;
     border-radius: 5px;
     font-weight: bold;
+    color: white;
 }
 
 #boxlink ol li {
     margin-left: 10px;
+}
+
+#boxlink a:link {
+    color: aliceblue;
+}
+
+#boxlink a:visited {
+    color: rgb(211, 234, 254);
 }
 
 .sec h2 {
