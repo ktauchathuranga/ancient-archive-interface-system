@@ -58,13 +58,25 @@ svg {
     background: linear-gradient(to bottom right, #155269, #84BFB0);
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    transition: height 0.3s ease; /* Transition for height property */
 }
 
-
-
 #tooltip {
-    
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    background: linear-gradient(to right, white, #ff7e5f, #feb47b, #ffcf66, #ffeb78, #cfff95, white);
+    background-clip: text;
+    color: transparent;
+}
+
+#boxlink {
+    padding-left: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#boxlink ol li {
+    margin-left: 10px;
 }
 
 .sec h2 {
