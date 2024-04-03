@@ -42,3 +42,15 @@ header ul li a.active  {
     background: #fff;
     color: #2b1055;
 }
+
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
