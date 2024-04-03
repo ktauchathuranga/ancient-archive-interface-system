@@ -35,6 +35,8 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 
 ## Basic Template
 
+### HTML
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -56,4 +58,39 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
     <div id="footer"></div>
 </body>
 </html>
+```
+
+### CSS
+
+```css
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#2b1055, #7597de);
+    overflow-x: hidden;
+}
+
+header {
+    content: '';
+    font-size: 18px;
+    width: 100%;
+    background: linear-gradient(to top, #1c0522, #4a488e);
+    color: #fff;
+    padding: 30px 0;
+}
+
+/* section must include this */
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
 ```

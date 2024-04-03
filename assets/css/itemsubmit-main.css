@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#2b1055, #7597de);
+    overflow-x: hidden;
+}
+
+header {
+    content: '';
+    font-size: 18px;
+    width: 100%;
+    background: linear-gradient(to top, #1c0522, #4a488e);
+    color: #fff;
+    padding: 30px 0;
+}
+
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+
+.item-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.item-left-title h2{
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.item-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.item-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #c4e0ff;
+    border-radius: 50px;
+}
+
+.item-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.item-inputs:focus {
+    border: 2px solid #7597de;
+}
+
+.item-inputs::placeholder {
+    color: #7597de;
+}
+
+.item-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #4a488e;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: linear-gradient(#1c0522, #4a488e);
+    cursor: pointer;
+}
+
+.item-left button img {
+    height: 15px;
+}
+
+.img-right {
+    width: 714px;
+    height: 584px;
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width:800px) {
+    .item-inputs {
+        width: 80vw;
+    }
+    .item-right {
+        display: none;
+    }
+}

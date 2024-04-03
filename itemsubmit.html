@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/itemsubmit-main.css">
+    <script src="assets/js/header-footer.js"></script>
+
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="sec">
+        <div class="item-container">
+            <form action="" method="post" class="item-left">
+                <div class="item-left-title">
+                    <h2>Submit your post</h2>
+                    <hr>
+                </div>
+                <input type="text" name="name" placeholder="Your Name" class="item-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="item-inputs" required>
+                <input type="text" name="post-title" placeholder="Enter Your Post Title" class="item-inputs" required>
+                <textarea name="post-content" placeholder="Enter Your Post Details" class="item-inputs"
+                    required></textarea>
+                <input type="file" name="filename" class="item-inputs" required>
+                <button type="submit">Post <img src="assets/media/itemsubmit/submit.png" alt=""></button>
+            </form>
+            <div class="item-right">
+                <div class="img-right">
+                    <img src="assets/media/itemsubmit/right-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+</body>
+
+</html>
