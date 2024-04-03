@@ -93,4 +93,19 @@ header {
     padding: 100px;
     background: #1c0522;
 }
+
+.sec h2{
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.sec hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 ```
