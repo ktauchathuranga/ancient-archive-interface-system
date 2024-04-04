@@ -8,16 +8,27 @@ function displayPostDetails(postId) {
     detailBox.innerHTML = "<h3>" + postDetails.title + "</h3><p>" + postDetails.content + "</p>";
 }
 
+var btnA = document.getElementById("approveBtn");
+var btnD = document.getElementById("declineBtn");
+
 document.getElementById("post1").addEventListener("click", function () {
+    btnA.style.display = "block";
+    btnD.style.display = "block";
     displayPostDetails(1);
 });
 document.getElementById("post2").addEventListener("click", function () {
+    btnA.style.display = "block";
+    btnD.style.display = "block";
     displayPostDetails(2);
 });
 document.getElementById("post3").addEventListener("click", function () {
+    btnA.style.display = "block";
+    btnD.style.display = "block";
     displayPostDetails(3);
 });
 document.getElementById("post4").addEventListener("click", function () {
+    btnA.style.display = "block";
+    btnD.style.display = "block";
     displayPostDetails(4);
 });
 
