@@ -81,6 +81,12 @@ $(document).ready(function(){
             $('.sellipi').hide();
             $('.statue').show();
         }
+     else if (selectedValue == "all") {
+        $('.temple').show();
+        $('.sellipi').show();
+        $('.statue').show();
+    }
+        
     });
     
 

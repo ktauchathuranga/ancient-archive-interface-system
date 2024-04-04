@@ -161,3 +161,10 @@ header {
 h1,.text-description{
     color: white;
 }
+.st{
+    width: 500px;
+    width: 50px;
+}
+h1,.choose{
+    margin-right: 10px;
+}
