@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     background: linear-gradient(#2b1055, #7597de);
     overflow-x: hidden;
+    color: #FFFFFF;
 }
 
 header {
@@ -44,7 +45,9 @@ header {
     width: calc(70%);
     line-height: 2;
 }
-
+.news-head p{
+    margin: 20px;
+}
 section{
     justify-content:space-between;
     display: flex; 
@@ -53,13 +56,12 @@ section{
     color: #504f4f;
 }
 #part1{
-    width: calc(75%); 
-   
+    width: calc(75%);   
 } 
 #part2{
     width: calc(25%);
     height: 70%;
-    margin-top: -300px;
+    margin-top: -360px;
     border-radius: 8px;
 }
 #part2 #hol{
@@ -135,11 +137,9 @@ section{
     flex-wrap: wrap;
 }
 #content{
-    margin-top: 50px;
+    margin-top: 30px;
     line-height: 2.2;
-
 }
-
 #content .center{
     display: block;
     margin-left: auto;
@@ -147,14 +147,16 @@ section{
     width: 400px;
     height: 300px;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 #content p{
     font-size: 1rem;
-    text-align: center;    
+    text-align: center; 
+    margin-bottom: 20px;
+
 }
 #content h1{
     text-align: center;
-    font-size: 2.5rem;
     line-height: 1.5;
 }
 .mySlides {
@@ -163,7 +165,6 @@ section{
 .news11_img_slideshow{
     width: 600px;
     height: 500px;
-   margin-bottom: 90px;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -187,16 +188,17 @@ section{
     transition: all 0.5s;
     cursor: pointer;
     margin: 0 85%;
+
   }
   
-  #next span {
+#next span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
-  #next span:after {
+#next span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -205,56 +207,10 @@ section{
     transition: 0.5s;
   }
   
-  #next:hover span {
+#next:hover span {
     padding-right: 25px;
   }
-  
-  #next:hover span:after {
+#next:hover span:after {
     opacity: 1;
     right: 0;
   }
-footer {
-    margin-top: 30px;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    border-radius: 8px;
-}
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-footer p {
-    margin-bottom: 10px;
-}
-.social-icons {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 0;
-}
-
-.social-icons li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.social-icons li:last-child {
-    margin-right: 0;
-}
-
-.social-icons img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    transition: transform 0.3s ease;
-}
-
-.social-icons img:hover {
-    transform: scale(1.2);
-}
-
-.copyright {
-    font-size: 14px;
-}
