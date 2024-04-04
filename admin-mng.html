@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/admin-mng.css">
+    <script src="assets/js/header-footer.js"></script>
+
+
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="sec">
+        <h2>Post Manager</h2>
+        <hr>
+        <div class="item-container">
+            <div class="item-left">
+                <div class="postbox">
+                    <div class="post" id="post1">
+                        <h3>Blog Post 1</h3>
+                        <img src="image1.jpg" alt="Image 1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut justo nec justo hendrerit
+                            vestibulum.</p>
+                    </div>
+                    <div class="post" id="post2">
+                        <h3>Blog Post 2</h3>
+                        <img src="image2.jpg" alt="Image 2">
+                        <p>Integer eu magna vel elit consequat fermentum. Nam sit amet augue et nibh iaculis dignissim.
+                        </p>
+                    </div>
+                    <div class="post" id="post3">
+                        <h3>Blog Post 3</h3>
+                        <img src="image3.jpg" alt="Image 3">
+                        <p>Etiam tempus magna quis elit tincidunt, eget congue ipsum sodales. Donec non metus sed lacus
+                            pulvinar rutrum.</p>
+                    </div>
+                    <div class="post" id="post4">
+                        <h3>Blog Post 4</h3>
+                        <img src="image4.jpg" alt="Image 4">
+                        <p>Nullam a libero sed elit interdum vestibulum eget a est. Suspendisse potenti. Nam ut vehicula
+                            orci.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item-right">
+                <div class="detailbox">
+                    <h3>Post Details</h3>
+                    <div id="postDetails"></div>
+                    <button id="approveBtn">Approve</button>
+                    <button id="declineBtn">Decline</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+    <script src="assets/js/admin-mng.js"></script>
+</body>
+
+</html>
