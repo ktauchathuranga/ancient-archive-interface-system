@@ -11,6 +11,8 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 > [!IMPORTANT]  
 > - Do NOT add PR's to **main** branch.
 > - Add PR's ONLY to **develop** branch.
+> - File names and branch names MUST include "-" if needed.
+> - File names and branch names should ONLY incude simple letters.
 
 ## Folder Structure
 
