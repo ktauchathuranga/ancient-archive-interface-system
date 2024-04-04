@@ -1,8 +1,16 @@
 select{
     width: 500px;
-    height: 30px;
+    height: 50px;
+    
+}
+h1{
+    margin-bottom: 50px;
+    font-size: 60px;
 }
 
+img{
+    width: 100%;
+}
 
 .photoNtopicNps1,
 .photoNtopicNps2,
@@ -94,4 +102,62 @@ select{
 .ani1:hover{
     transform: scale(1.1);
     z-index: 1;
+}
+.bm{
+    margin-top: 12px;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+}
+h1.h1{
+    font-size: 100px;
+    text-shadow: #2b1055
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#2b1055, #7597de);
+    overflow-x: hidden;
+}
+
+header {
+    content: '';
+    background: linear-gradient(to top, #1c0522, #4a488e);
+    color: #fff;
+}
+
+/* section must include this */
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+
+.sec h2{
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.sec hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+h1,.text-description{
+    color: white;
 }

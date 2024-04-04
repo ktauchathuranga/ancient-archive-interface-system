@@ -63,28 +63,28 @@ $(document).ready(function(){
 
         
     })
-$(document).ready(function(){
-    $("select #choose").change(function() {
+
+    $("#choose").change(function() {
         // Get the selected value from the dropdown
-        const selectedValue = document.getElementById('choose').value();
-        
+        const selectedValue = $(this).val();
         // Show options based on the selected value
         if (selectedValue == "temple") {
-            $(".temple").show();
-            $(".sellipi").hide();
-            $(".statue").hide();
+            $('.temple').show();
+            $('.sellipi').hide();
+            $('.statue').hide();
         } else if (selectedValue == "sellipi") {
-            $(".sellipi").show();
-            $(".temple").hide();
-            $(".statue").hide();
+            $('.temple').hide();
+            $('.sellipi').show();
+            $('.statue').hide();
         } else if (selectedValue == "statue") {
-            $(".statue").show();
-            $(".temple").hide();
-            $(".sellipi").hide();
+            $('.temple').hide();
+            $('.sellipi').hide();
+            $('.statue').show();
         }
     });
+    
+
 });
 
 
     
-})
