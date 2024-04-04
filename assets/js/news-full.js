@@ -1,11 +1,11 @@
 $(document).ready(function(){
     var currentImageIndex = 0;
     var images = [
-        "media/news/image/news 1/godawaya.jpg",
-        "media/news/image/news 1/3.jpg",
-        "media/news/image/news 1/maritime.jpg",
-        "media/news/image/news 1/2.jpg",
-        "media/news/image/news 1/4.jpg"
+        "assets/media/news/image/news 1/godawaya.jpg",
+        "assets/media/news/image/news 1/3.jpg",
+        "assets/media/news/image/news 1/maritime.jpg",
+        "assets/media/news/image/news 1/2.jpg",
+        "assets/media/news/image/news 1/4.jpg"
     ];
     function showNextImage() {
         $('#news_1 img').attr('src', images[currentImageIndex]);
@@ -27,11 +27,11 @@ $(document).ready(function(){
     $(document).ready(function(){
     var currentImageIndex = 0;
     var images = [
-        "media/news/image/news 2/largest_incription.jpg",
-        "media/news/image/news 2/largest-inscription-min.png",
-        "media/news/image/news 2/Sri-Lankas-largest-inscription.jpeg",
-        "media/news/image/news 2/5.jpg",
-        "media/news/image/news 2/4.jpg"
+        "assets/media/news/image/news 2/largest_incription.jpg",
+        "assets/media/news/image/news 2/largest-inscription-min.png",
+        "assets/media/news/image/news 2/Sri-Lankas-largest-inscription.jpeg",
+        "assets/media/news/image/news 2/5.jpg",
+        "assets/media/news/image/news 2/4.jpg"
     ];
     function showNextImage() {
         $('#news_2 img').attr('src', images[currentImageIndex]);
@@ -53,9 +53,9 @@ $(document).ready(function(){
 $(document).ready(function(){
     var currentImageIndex = 0;
     var images = [
-        "media/news/image/news 4/3.jpg",
-        "media/news/image/news 4/4.jpg",
-        "media/news/image/news 4/2.jpg"
+        "assets/media/news/image/news 4/3.jpg",
+        "assets/media/news/image/news 4/4.jpg",
+        "assets/media/news/image/news 4/2.jpg"
     ];
     function showNextImage() {
         $('#news_4 img').attr('src', images[currentImageIndex]);
@@ -77,11 +77,11 @@ $(document).ready(function(){
 $(document).ready(function(){
     var currentImageIndex = 0;
     var images = [
-        "media/news/image/news 5/5.jpg",
-        "media/news/image/news 5/1.jpg",
-        "media/news/image/news 5/3.jpg",
-        "media/news/image/news 5/0.webp",
-        "media/news/image/news 5/4.jpg"
+        "assets/media/news/image/news 5/5.jpg",
+        "assets/media/news/image/news 5/1.jpg",
+        "assets/media/news/image/news 5/3.jpg",
+        "assets/media/news/image/news 5/0.webp",
+        "assets/media/news/image/news 5/4.jpg"
     ];
     function showNextImage() {
         $('#news_5 img').attr('src', images[currentImageIndex]);
