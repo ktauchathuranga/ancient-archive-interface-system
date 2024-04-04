@@ -113,3 +113,45 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.detailbox #title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    font-size: 30px;
+}
+
+.postandbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.detailbox #approveBtn {
+    display: none;
+    padding: 2%;
+    font-size: small;
+    color: green;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: linear-gradient(#1c0522, #4a488e);
+    cursor: pointer;
+}
+
+.detailbox #declineBtn {
+    display: none;
+    padding: 2%;
+    font-size: small;
+    color: red;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: linear-gradient(#1c0522, #4a488e);
+    cursor: pointer;
+}
