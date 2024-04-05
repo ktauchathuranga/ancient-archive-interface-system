@@ -55,11 +55,34 @@ document.getElementById("post4").addEventListener("click", function () {
 document.getElementById("approveBtn").addEventListener("click", function () {
     var postElement = document.getElementById("post" + POSTID);
     postElement.style.display = "none";
+
+    $("#approveBtn").hide();
+    $("#declineBtn").hide();
+
+    var detailBox = $("#postDetails");
+        detailBox.html("<h3 id='appr' class='res'>APPROVED</h3>");
+        setTimeout(function() {
+            $("#appr").fadeOut(500, function() {
+                detailBox.html("Click on post to see the options.");
+            });
+        }, 1000);
+    
 });
 
 document.getElementById("declineBtn").addEventListener("click", function () {
     var postElement = document.getElementById("post" + POSTID);
     postElement.style.display = "none";
+
+    $("#approveBtn").hide();
+    $("#declineBtn").hide();
+
+    var detailBox = $("#postDetails");
+        detailBox.html("<h3 id='decl' class='res'>DECLINED</h3>");
+        setTimeout(function() {
+            $("#decl").fadeOut(500, function() {
+                detailBox.html("Click on post to see the options.");
+            });
+        }, 1000);
 });
 
 
