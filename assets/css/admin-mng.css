@@ -102,10 +102,13 @@ header {
 .post img {
     width: 30vh;
     height: 25vh;
+    border-radius: 20px;
+    margin-bottom: 2vh;
 }
 
 .post h3 {
     text-decoration: underline;
+    margin-bottom: 2vh;
 }
 
 .item-right {
