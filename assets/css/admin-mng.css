@@ -148,6 +148,14 @@ header {
     margin-bottom: 1vh;
 }
 
+.userdetail hr {
+    margin-top: 2vh;
+}
+
+.userdetail h4 {
+    text-decoration: underline;
+}
+
 .btn {
     display: flex;
     justify-content: space-evenly;
