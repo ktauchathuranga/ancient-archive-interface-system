@@ -13,7 +13,7 @@ function displayPostDetails(postId, postData, name, email) {
     };
 
     var detailBox = document.getElementById("postDetails");
-    detailBox.innerHTML = "<h3 id='mngtitle'>" + postDetails.title + "</h3><p id='mngdetails'>" + postDetails.content + "</p><div class='userdetail'><hr><h4>User Detils</h4><p><ul><li>Name: " + name + "</li><li>Email: " + email + "</li></ul></p></div>";
+    detailBox.innerHTML = "<h3 id='mngtitle'>" + postDetails.title + "</h3><p id='mngdetails'>" + postDetails.content + "</p><div class='userdetail'><hr><h4>User Details</h4><p><ul><li>Name: " + name + "</li><li>Email: " + email + "</li></ul></p></div>";
 }
 
 function updateRemainingPosts() {
