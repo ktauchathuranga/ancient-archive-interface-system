@@ -7,7 +7,7 @@ function displayPostDetails(postId, postData) {
     };
 
     var detailBox = document.getElementById("postDetails");
-    detailBox.innerHTML = "<h3>" + postDetails.title + "</h3><p>" + postDetails.content + "</p>";
+    detailBox.innerHTML = "<h3 id='mngtitle'>" + postDetails.title + "</h3><p id='mngdetails'>" + postDetails.content + "</p>";
 }
 
 var post1 = "Sigiriya or Sinhagiri is an ancient rock fortress located in the northern Matale District near the town of Dambulla in the Central Province, Sri Lanka. It is a site of historical and archaeological significance that is dominated by a massive column of granite approximately 180 m high";
