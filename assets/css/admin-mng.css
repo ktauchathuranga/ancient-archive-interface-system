@@ -73,6 +73,11 @@ header {
     -ms-overflow-style: none;
 }
 
+.postbox img {
+    width: 20vh;
+    height: 15vh;
+}
+
 .postbox::-webkit-scrollbar {
     display: none;
 }
