@@ -53,11 +53,8 @@ document.getElementById("post4").addEventListener("click", function () {
 });
 
 document.getElementById("approveBtn").addEventListener("click", function () {
-    var postElement = document.getElementById("post" + POSTID);
-    postElement.style.display = "none";
-
-    $("#approveBtn").hide();
-    $("#declineBtn").hide();
+    $("#post" + POSTID).fadeOut(500);
+    $("#approveBtn, #declineBtn").hide();
 
     var detailBox = $("#postDetails");
         detailBox.html("<h3 id='appr' class='res'>APPROVED</h3>");
@@ -70,11 +67,8 @@ document.getElementById("approveBtn").addEventListener("click", function () {
 });
 
 document.getElementById("declineBtn").addEventListener("click", function () {
-    var postElement = document.getElementById("post" + POSTID);
-    postElement.style.display = "none";
-
-    $("#approveBtn").hide();
-    $("#declineBtn").hide();
+    $("#post" + POSTID).fadeOut(500);
+    $("#approveBtn, #declineBtn").hide();
 
     var detailBox = $("#postDetails");
         detailBox.html("<h3 id='decl' class='res'>DECLINED</h3>");
