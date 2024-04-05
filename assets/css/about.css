@@ -1,0 +1,132 @@
+/* Existing styles */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Mixed background color using linear gradient */
+    background-image: linear-gradient(45deg, #0B354E, #326880, #8BCBB9);
+}
+
+.vision, .mission , .history, .objevtives , .services , .team_members{
+    padding: 20px;
+    background-color: #A9D2C3;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.vision h2, .mission h2, .vision p, .mission p , .history h2, .history p, .objevtives h2, .objevtives p , .services h2 , .services p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.vision:hover, .mission:hover , .history:hover , .objevtives:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-inner > .carousel-item > img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #0B354E; /* Dark Blue for headings */
+}
+
+p{
+    text-align: center;
+    color: #326880;
+    font-weight: bold;
+}
+
+h6 {
+    text-align: center;
+    color: #2B1055;
+    font-weight: bold;
+}
+
+
+#serv_card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* New styles */
+
+/* Carousel Controls */
+.carousel-control-prev, .carousel-control-next {
+    color: #0B354E;
+}
+
+/* Carousel Indicators */
+.carousel-indicators li {
+    background-color: #2B1055;
+}
+
+/* Cards */
+.card {
+    background-color: #deede8;
+    border-color: #010f14;
+    border: weight 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    border-color: #A9D2C3;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Team Section */
+.team-section {
+    background-color: #8BCBB9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-section h2, .team-section p {
+    color: #0B354E;
+}
+
+.team-section h5 {
+    color: #2B1055;
+}
+
+#btn-custom {
+    background-color: transparent; /* Make the button transparent initially */
+    color: #0B354E; /* Set the text color */
+    width: 4%;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#btn-custom:hover {
+    background-color: #326880; /* Change the background color on hover */
+    color: white; /* Change the text color on hover */
+}
+
+
+/* Additional Styling for Responsiveness */
+@media (max-width: 768px) {
+    .carousel-inner > .carousel-item > img {
+        height: 50vh;
+    }
+}
