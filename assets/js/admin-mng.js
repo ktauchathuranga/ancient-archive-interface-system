@@ -1,3 +1,7 @@
+var totalPosts = 4;
+var approvedPosts = 0;
+var declinedPosts = 0;
+
 function displayPostDetails(postId, postData, name, email) {
     var ptitle = document.getElementById(postId);
     POSTID = postId;
@@ -9,6 +13,11 @@ function displayPostDetails(postId, postData, name, email) {
 
     var detailBox = document.getElementById("postDetails");
     detailBox.innerHTML = "<h3 id='mngtitle'>" + postDetails.title + "</h3><p id='mngdetails'>" + postDetails.content + "</p><div class='userdetail'><hr><h4>User Detils</h4><p><ul><li>Name: " + name + "</li><li>Email: " + email + "</li></ul></p></div>";
+}
+
+function updateRemainingPosts() {
+    var remainingPosts = totalPosts - approvedPosts - declinedPosts;
+    document.getElementById("remainingPosts").textContent = "Remaining Posts to Manage: " + remainingPosts;
 }
 
 var post1 = "Sigiriya or Sinhagiri is an ancient rock fortress located in the northern Matale District near the town of Dambulla in the Central Province, Sri Lanka. It is a site of historical and archaeological significance that is dominated by a massive column of granite approximately 180 m high";
@@ -53,6 +62,9 @@ document.getElementById("post4").addEventListener("click", function () {
 });
 
 document.getElementById("approveBtn").addEventListener("click", function () {
+    approvedPosts++;
+    updateRemainingPosts();
+
     $("#post" + POSTID).fadeOut(500);
     $("#approveBtn, #declineBtn").hide();
 
@@ -67,6 +79,9 @@ document.getElementById("approveBtn").addEventListener("click", function () {
 });
 
 document.getElementById("declineBtn").addEventListener("click", function () {
+    declinedPosts++;
+    updateRemainingPosts();
+
     $("#post" + POSTID).fadeOut(500);
     $("#approveBtn, #declineBtn").hide();
 
