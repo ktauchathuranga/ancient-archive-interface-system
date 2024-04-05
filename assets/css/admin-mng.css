@@ -44,7 +44,7 @@ header {
 .item-container {
     /* height: 100vh; */
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-evenly;
 }
 
@@ -71,6 +71,9 @@ header {
     overflow-y: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .postbox::-webkit-scrollbar {
