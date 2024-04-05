@@ -185,6 +185,11 @@ header {
     cursor: pointer;
 }
 
+.detailbox #remainingPosts {
+    margin-top: 1vh;
+    font-size: 10px;
+}
+
 .res#appr {
     color: rgb(59, 216, 59);
     text-align: center;
