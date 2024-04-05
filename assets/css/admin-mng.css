@@ -184,3 +184,15 @@ header {
     background-color: linear-gradient(#1c0522, #4a488e);
     cursor: pointer;
 }
+
+.res#appr {
+    color: rgb(59, 216, 59);
+    text-align: center;
+    text-decoration: overline;
+}
+
+.res#decl {
+    color: rgb(216, 59, 59);
+    text-align: center;
+    text-decoration: overline;
+}
