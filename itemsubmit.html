@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Sumbission's</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/itemsubmit-main.css">
@@ -29,6 +29,9 @@
                     required></textarea>
                 <input type="file" name="filename" class="item-inputs" required>
                 <button type="submit">Post <img src="assets/media/itemsubmit/submit.png" alt=""></button>
+                <div id="mask" style="width: 100%; height: 100vh; background-color: rgba(0, 0, 0, 0.5); position: fixed; top: 0; left: 0; display: none;"></div>
+                <a href="#" id="admin-login-mask">Click here to reveal Admin Login</a>
+                <a href="#" id="admin-login-link" style="display: none;">Admin Login</a>
             </form>
             <div class="item-right">
                 <div class="img-right">
@@ -39,6 +42,6 @@
     </div>
 
     <div id="footer"></div>
+    <script src="assets/js/itemsubmit-main.js"></script>
 </body>
-
 </html>
