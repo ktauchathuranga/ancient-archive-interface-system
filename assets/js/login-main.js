@@ -50,3 +50,16 @@ function validateForm(form) {
         return false; // Prevent form submission
     }
 }
+
+function togglePasswordVisibility() {
+    var passwordInput = document.getElementById("password-field");
+    var toggleButton = document.getElementById("toggle-password");
+
+    if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+        toggleButton.checked = true;
+    } else {
+        passwordInput.type = "password";
+        toggleButton.checked = false;
+    }
+}
