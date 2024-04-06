@@ -7,7 +7,7 @@
   
   /* Body styles */
   body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -19,19 +19,18 @@
   /* Section styles */
   .section {
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     padding: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(214, 224, 245, 0.8);
+    border-radius: 20px;
   }
   
   /* Heading styles */
   .heading-section {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 30px;
-    align-content: center;
+    text-align: center;
   }
   
   /* Form styles */
@@ -49,25 +48,25 @@
   .form-control {
     width: 100%;
     padding: 12px 20px;
-    border: 1px solid #ccc;
+    border: 2px solid #2b1055;
     border-radius: 4px;
     font-size: 16px;
   }
   
   .form-control:focus {
     outline: none;
-    border-color: #4CAF50;
+    border-color: #284fa4;
   }
   
   .submit {
-    background-color: #4CAF50;
+    background-color: #284fa4;
     color: white;
     font-weight: bold;
     cursor: pointer;
   }
   
   .submit:hover {
-    background-color: #45a049;
+    background-color: #5b82d7;
   }
   
   /* Checkbox styles */
@@ -102,11 +101,11 @@
   }
   
   .checkbox-wrap:hover input ~ .checkmark {
-    background-color: #ccc;
+    background-color: #98b1e6;
   }
   
   .checkbox-wrap input:checked ~ .checkmark {
-    background-color: #4CAF50;
+    background-color:#284fa4;
   }
   
   .checkmark:after {
@@ -130,24 +129,7 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-  
-  /* Social button styles */
-  .social {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .social a {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 4px;
-    margin: 0 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .social a:hover {
-    background-color: #45a049;
+  .forget_pw{
+    color: #2b1055;
+    padding-top: 5px;
   }
