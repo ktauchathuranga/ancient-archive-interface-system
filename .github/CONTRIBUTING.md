@@ -9,6 +9,7 @@ If you have suggestions for how this project could be improved, or want to repor
 We'd also love PRs. If you're thinking of a large PR, we advise opening up an issue first to talk about it
 
 > [!IMPORTANT]  
+> - Create new branch for your changes. make your changes there!
 > - Do NOT add PR's to **main** branch.
 > - Add PR's ONLY to **develop** branch.
 > - File names and branch names MUST include "-" if needed.
