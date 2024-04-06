@@ -60,6 +60,8 @@ $(document).ready(function () {
             });
             linkHtml += '</ul>';
             $('#boxlink').html(linkHtml);
+        } else {
+            $('#boxlink').html("Currently we dont have post from here! :(");
         }
 
         if (clickedSection === currentSection) {
@@ -79,17 +81,18 @@ $(document).ready(function () {
         if (!isClicked) {
             var title = $(this).attr('title');
             $('#tooltip').text(title).show();
-
-            if (links[title]) {
+    
+            if (links[title] && links[title].length > 0) {
                 var linkHtml = '<ul>';
                 links[title].forEach(function(link) {
                     linkHtml += '<li>' + link + '</li>';
                 });
                 linkHtml += '</ul>';
                 $('#boxlink').html(linkHtml);
-                console.log(linkHtml);
+            } else {
+                $('#boxlink').html("Currently we don't have a post from here! :(");
             }
-
+    
             $(this).css('fill', '#4a488e');
         }
     }, function () {
@@ -98,6 +101,7 @@ $(document).ready(function () {
             $('#tooltip', "#boxlink").hide();
         }
     });
+    
 
     $('#map').mouseleave(function () {
         if (!isClicked) {
