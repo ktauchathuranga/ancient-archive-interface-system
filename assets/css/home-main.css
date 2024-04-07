@@ -13,6 +13,10 @@ body {
     overflow-x: hidden;
 }
 
+/* #header header {
+    position: relative;
+} */
+
 section {
     position: relative;
     width: 100%;
