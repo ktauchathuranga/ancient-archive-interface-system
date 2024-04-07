@@ -1,3 +1,10 @@
+let loader = document.getElementById("preloader");
+
+window.addEventListener("load", function () {
+    loader.style.display = "none";
+})
+
+
 let star = document.getElementById("star");
 let moon = document.getElementById("moon");
 let elephant = document.getElementById("elephant");
