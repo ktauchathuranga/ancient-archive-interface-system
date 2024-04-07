@@ -13,9 +13,9 @@ body {
     overflow-x: hidden;
 }
 
-/* #header header {
+#header header {
     position: relative;
-} */
+}
 
 section {
     position: relative;
