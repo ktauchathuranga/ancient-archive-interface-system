@@ -48,6 +48,11 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/media/header/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/media/header/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/media/header/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/media/header/favicon/site.webmanifest">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/YOUR-CSS.css">
     <script src="assets/js/header-footer.js"></script>
