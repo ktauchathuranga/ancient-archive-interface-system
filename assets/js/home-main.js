@@ -1,8 +1,12 @@
 let loader = document.getElementById("preloader");
 
 window.addEventListener("load", function () {
-    loader.style.display = "none";
-})
+    // NOPE SHUT UP! SHHHHHHH!!!!!
+    setTimeout(function() {
+        loader.style.display = "none";
+    }, 2000);
+});
+
 
 
 let star = document.getElementById("star");
