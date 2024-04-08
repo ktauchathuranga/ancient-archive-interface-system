@@ -1,0 +1,135 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Section styles */
+  .section {
+    width: 100%;
+    max-width: 600px;
+    padding: 50px;
+    background-color: rgba(214, 224, 245, 0.8);
+    border-radius: 20px;
+  }
+  
+  /* Heading styles */
+  .heading-section {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Form styles */
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid #2b1055;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #284fa4;
+  }
+  
+  .submit {
+    background-color: #284fa4;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: #5b82d7;
+  }
+  
+  /* Checkbox styles */
+  .checkbox-wrap {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .checkbox-wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 3px;
+  }
+  
+  .checkbox-wrap:hover input ~ .checkmark {
+    background-color: #98b1e6;
+  }
+  
+  .checkbox-wrap input:checked ~ .checkmark {
+    background-color:#284fa4;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-wrap input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-wrap .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .forget_pw{
+    color: #2b1055;
+    padding-top: 5px;
+  }
