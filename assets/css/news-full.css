@@ -81,7 +81,7 @@ section{
     border-radius: 8px;
     margin-bottom: 20px;
     cursor: pointer;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 #news_10 img,#news_11 img,#news_12 img,#news_13 img,#news_14 img{
     width:100px; 
@@ -92,13 +92,13 @@ section{
     cursor: pointer;
     transition: 1s;
     border-radius: 2px;
-    opacity: 0.7;
+    opacity: 0.8;
 
     
 }
 #news_9 p,#news_10 p,#news_11 p,#news_12 p,#news_13 p,#news_14 p{
     cursor: pointer;
-    border-radius: 8px;
+    
 }
 #part2 p:hover{
     z-index: 1;
@@ -110,13 +110,12 @@ section{
     color: #e61d1d;
 }
 
-
 #news_main img{
     width: 100%;
     height: 70%;
     border-radius: 8px;
     transition: 1s;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 #news_main p{
     font-size: 0.9rem;
@@ -151,11 +150,11 @@ section{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     border-radius: 4px;
     margin-bottom: 30px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 #content p{
     font-size: 1rem;
@@ -198,7 +197,7 @@ section{
   
 }
 .nbutton:hover {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
   }
 .ndisplay-left{
     left: 0px;
@@ -208,7 +207,7 @@ section{
 }
 #next {
     border-radius: 4px;
-    background-color: #e61d1d;
+    background-color: #12435a;
     border: none;
     color: #FFFFFF;
     text-align: center;
