@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function validateForm(form) {
     // Predefined username and password for validation
-    const predefinedUsername = "Navodya";
-    const predefinedPassword = "@Navodya123";
+    const predefinedUsername = "Admin";
+    const predefinedPassword = "Admin@123";
 
     // Get the input values
     const username = form.querySelector('#username');
@@ -38,7 +38,7 @@ function validateForm(form) {
 
     // Check if the username and password match the predefined values
     if (username.value === predefinedUsername && password.value === predefinedPassword) {
-        alert('Login successful!');
+        
         // Here you can redirect the user to another page or perform other actions
         return true; // Allow form submission
     } else {
