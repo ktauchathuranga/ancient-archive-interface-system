@@ -175,7 +175,7 @@ $(document).ready(function(){
     });
 
     function nextLine(){
-        alert("Updating.....")
+        alert("Oops!,This page updating.")
     }
 
    var slideIndex = 1;
