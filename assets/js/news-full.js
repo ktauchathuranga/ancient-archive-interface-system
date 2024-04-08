@@ -175,7 +175,8 @@ $(document).ready(function(){
     });
 
     function nextLine(){
-        alert("Updating.....")
+        var msg="Oops! "+ '<br>' +"My Custom Error 404-Page not found";
+        alert(msg);
     }
 
    var slideIndex = 1;
