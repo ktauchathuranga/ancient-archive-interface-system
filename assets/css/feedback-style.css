@@ -22,7 +22,6 @@ header {
 
 /* section must include this */
 .sec {
-    position: relative;
     padding: 100px;
     background: #1c0522;
 }
@@ -42,11 +41,12 @@ header {
     margin-bottom: 20px;
 }
 
-.container{
+.f-container{
 	max-width: 650px;
 	width:100%;
-	margin: 12% 0;
+	margin: 64px auto;
 	border-radius: 16px;
+	padding: 24px;
 
 }
 
@@ -66,11 +66,13 @@ header {
 .feedback-form
 .form-control{
 	border-radius:1rem;
+
 }
 
 .row{
 	margin-bottom:-7%;
 	width: 100%;
+	
 
 }
 
@@ -180,4 +182,11 @@ input, textarea{
 .rating input:checked ~ label:after
 {
 	opacity:1;
+}
+
+#result{
+	color: red;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 50px;
 }
