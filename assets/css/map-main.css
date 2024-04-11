@@ -37,13 +37,25 @@ header {
 
 #mapitem {
     display: flex;
-    width: 100%;
     align-items: center;
     justify-content: center;
+
+    width: 60%;
+    height: 80vh;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(to bottom right, rgba(52, 32, 101, 0.4), rgba(170, 212, 197, 0.4)); /* Adjust the transparency as needed */
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
 }
 
 svg {
-    height: 70vh;
+    height: 50vh;
 }
 
 .box {

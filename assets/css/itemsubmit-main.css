@@ -96,6 +96,18 @@ header {
     height: 15px;
 }
 
+.item-left a:link {
+    color: #ffffff;
+  }
+
+.item-left a:visited {
+    color: #ffffff;
+  }
+
+.item-left a:hover {
+    color: #acacac;
+  }
+
 .img-right {
     width: 714px;
     height: 584px;

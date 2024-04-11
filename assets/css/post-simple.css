@@ -117,10 +117,10 @@ img{
     margin-top: 12px;
     width: 100px;
     height: 30px;
-    border-radius: 12px;
+    border-radius: 12px;margin-bottom: 30px;
 }
-h1.h1{
-    font-size: 100px;
+h1{
+    font-size: 40px;
     text-shadow: #2b1055
 }
 .text-description{
@@ -150,7 +150,7 @@ header {
     color: #fff;
 }
 
-/* section must include this */
+
 .sec {
     position: relative;
     padding: 100px;

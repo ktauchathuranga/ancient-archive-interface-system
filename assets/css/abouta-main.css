@@ -1,0 +1,392 @@
+/* Existing styles */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#2b1055, #7597de);
+    overflow-x: hidden;
+}
+
+header {
+    content: '';
+    background: linear-gradient(to top, #1c0522, #4a488e);
+    color: #fff;
+}
+
+/* section must include this */
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+
+.sec h2{
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.sec hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Vision and Mission div */
+.container_01{
+    display: flex;
+    flex-direction: row;
+    max-height:200px;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.col_01{
+    flex: 1;
+    min-width: 40%;
+    padding: 10px;
+    height: 300px;
+}
+/* end */
+
+.vision , .mission{
+    padding: 40px;
+    background-color: #A9D2C3;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+/* History div */
+.container_02{
+    display: flex;
+    flex-direction: row;
+    max-height:300px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.col_02{
+    flex: 1;
+    min-width: 80%;
+    padding: 10px;
+}
+/* end */
+
+.history{
+    padding: 20px;
+    background-color: #A9D2C3;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* Objectives div */
+.container_03{
+    display: flex;
+    flex-direction: row;
+    max-height:fit-content;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.col_03{
+    flex: 1;
+    min-width: 80%;
+    padding: 10px;
+}
+/* end */
+
+/* Image-Slider div */
+.container_04{
+    display: flex;
+    flex-direction: row;
+    max-height:fit-content;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.col_04{
+    flex: 1;
+    min-width: 80%;
+    padding: 10px;
+}
+/* end */
+
+
+.heading{
+    padding-bottom: 20px;
+    /* text-align: center; */
+
+}
+.container_05{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    max-height:fit-content;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #8BCBB9;
+    border-radius: 10px;
+}
+
+.col_05{
+    flex: 1;
+    min-width: 11%;
+    
+}
+
+.img_member{
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+    height: fit-content;
+}
+
+.container_06{
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    max-height:fit-content;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #8BCBB9;
+    border-radius: 10px;
+}
+
+.col_06{
+    background-color: #deede8;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    max-width: 13%;
+    
+}
+.col_07{
+    width: 100%;
+}
+
+
+/* Carousel Styles */
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 100%;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    display: none;
+    border-radius: 10px
+}
+
+.carousel-item.active {
+    opacity: 1;
+    display: block;
+}
+
+/* Card Styles */
+.card {
+    background-color: #deede8;
+    border-color: #010f14;
+    border: 1px solid #010f14;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    margin: 10px;
+    padding: 20px;
+}
+
+.card:hover {
+    border-color: #A9D2C3;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+/* Carousel Controls */
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #0B354E;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.carousel-control-prev {
+    left: 20px;
+}
+
+.carousel-control-next {
+    right: 20px;
+}
+
+.objevtives , .services , .team_members{
+    padding: 20px;
+    background-color: #A9D2C3;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.vision h2, .mission h2, .vision p, .mission p , .history h2, .history p, .objevtives h2, .objevtives p , .services h2 , .services p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.vision:hover, .mission:hover , .history:hover , .objevtives:hover , .container_05:hover , .col_05:hover , .container_06:hover , .col_06:hover {
+    transform: scale(1.025);
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-inner > .carousel-item > img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #0B354E; /* Dark Blue for headings */
+}
+
+p{
+    text-align: center;
+    color: #326880;
+    font-weight: bold;
+}
+
+h4 {
+    
+    text-align: center;
+    color: #2B1055;
+    font-weight: bold;
+}
+
+li{
+    color: #326880;
+    font-weight: bold;
+}
+
+
+#serv_card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* New styles */
+
+/* Carousel Controls */
+.carousel-control-prev, .carousel-control-next {
+    color: #0B354E;
+}
+
+/* Carousel Indicators */
+.carousel-indicators li {
+    background-color: #2B1055;
+}
+
+/* Cards */
+.card {
+    background-color: #deede8;
+    border-color: #010f14;
+    border: weight 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    border-color: #A9D2C3;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Team Section */
+.team-section {
+    background-color: #8BCBB9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-section h5 {
+    color: #2B1055;
+}
+
+#btn-custom {
+    background-color: transparent; /* Make the button transparent initially */
+    color: #0B354E; /* Set the text color */
+    width: 4%;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#btn-custom:hover {
+    background-color: #326880; /* Change the background color on hover */
+    color: white; /* Change the text color on hover */
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .carousel-inner {
+        flex-direction: column;
+    }
+    .carousel-item {
+        width: 100%;
+    }
+}
