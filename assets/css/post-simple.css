@@ -1,11 +1,20 @@
 select{
-    width: 500px;
+    width: 450px;
     height: 40px;
-    
+    background-color: #7597de;
+    font-size: 30px;
+    color: white;
+    border-color: #7597de;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.s,.st,.t{
+    cursor: pointer;
 }
 h1{
-    margin-bottom: 40px;
-   
+    margin-bottom: 50px;
+    font-size: 50px;
+    margin-top: 60px;
 }
 
 img{
@@ -95,6 +104,7 @@ img{
 {
     width: 600px;
     height: 300px;
+    cursor: zoom-in;
 }
 .ani{
     transition: 1s;
@@ -112,6 +122,9 @@ img{
 h1{
     font-size: 40px;
     text-shadow: #2b1055
+}
+.text-description{
+    font-size: 20px;
 }
 
 
@@ -168,3 +181,13 @@ h1,.text-description{
 h1,.choose{
     margin-right: 10px;
 }
+.changecolor{
+   
+        color: white; /* Default color */
+        transition: color 0.3s ease; /* Smooth transition for color change */
+      
+}
+.changecolor:hover {
+    color:#7597de; /* Change color to red on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
