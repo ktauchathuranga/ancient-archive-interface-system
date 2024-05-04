@@ -3,19 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News & update</title>
+    <title>News & Update</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/media/header/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/media/header/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/media/header/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/media/header/favicon/site.webmanifest">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="assets/js/header-footer.js"></script>
 
     <script src="assets/js/news-full.js"></script>
     <link href="assets/css/news-full.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/header.css">
+    <script src="assets/js/header-footer-active.js"></script>
+    <link rel="stylesheet" href="assets/css/footer.css">
+
 </head>
 <body>
-<div id="header"></div>
+<div id="header">
+<header>
+    <a href="index.html" class="logo">AAI Systems</a>
+    <ul>
+        <li class="index"><a href="index.html">Home</a></li>
+        <li class="map"><a href="map.html#sec">Map</a></li>
+        <li class="news"><a href="news.html">News & Updates</a></li>
+        <li class="about"><a href="about.html">About</a></li>
+    </ul>    
+</header>
+</div>
 <div class="sec">
         <div class="news-head">
-            <h2>Archaeology News & Updates Sri lanka</h2>
+            <h2>Archaeology News & Updates Sri Lanka</h2>
             <hr><br>
               <p>Stay updated with the latest discoveries and news from the fascinating world of Sri Lanka archaeology. Explore ancient civilizations, uncover hidden treasures, and learn about ongoing excavations.</p>
               <p>Our team of experts brings you comprehensive coverage of archaeological findings, historical sites, and cultural heritage preservation efforts across Sri Lanka. From prehistoric settlements to ancient temples, from medieval fortresses to colonial relics, we strive to provide you with engaging and informative content.</p>
@@ -90,6 +111,7 @@
     <div id="content">
         <div id="news1">
             <h1>U.S. Embassy, Sri Lanka’s Maritime Archaeology Unit dive to ancient Godawaya shipwreck</h1>
+           
             <p id="date"> March 29, 2024</p>
             <img src="assets/media/news/image/news 1/2.jpg" class="center">
             <p>
@@ -242,8 +264,16 @@
         <div id="news11">
           <h1>A training in coin indexing for second year archeology students of the Buddhist and Pali University of Sri Lanka</h1>
           <p id="date">09 November 2022</p>
-            <img src="assets/media/news/image/news11/3.jpg" class="center">
+          <div class="news11_img_slideshow">
+            <img src="assets/media/news/image/news11/3.jpg" class="news11_img slide">
+            <img src="assets/media/news/image/news11/2.jpeg" class="news11_img slide">
+            <img src="assets/media/news/image/news11/1.jpeg" class="news11_img slide">
+            <img src="assets/media/news/image/news11/4.jpg" class="news11_img slide">
 
+            <button class="nbutton nblack ndisplay-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="nbutton nblack ndisplay-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+      
           <p>The Epigraphy and Numismatics section of the Department of Archaeology and the Buddhist & Pali University of Sri Lanka jointly organized this 
               coin indexing training session for second-year undergraduates on 1st, 2nd, and 3rd  November 2022, at the Anuradhapura Archaeological Museum. </p>
           <p>
@@ -301,6 +331,26 @@
   </div>
 <button id="next" onclick="nextLine()"><span>NEXT</span></button>
 </div>
-<div id="footer"></div>
+<div id="footer">
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <ul class="footer-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">News & Updates</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="itemsubmit.html">Submit Your Posts</a></li>
+                        <li class="support"><a href="sponsor.html">Our Supporters</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AAI Systems. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>

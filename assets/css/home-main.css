@@ -13,6 +13,10 @@ body {
     overflow-x: hidden;
 }
 
+#header header {
+    position: relative;
+}
+
 section {
     position: relative;
     width: 100%;
@@ -100,4 +104,13 @@ section img#moun-front {
 .sec p {
     font-size: 1em;
     color: #fff;
+}
+
+#preloader {
+    background: #2b1055 url("/ancient-archive-interface-system/assets/media/home/v2/loader.gif") no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1000000;
 }

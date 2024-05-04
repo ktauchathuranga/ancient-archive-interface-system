@@ -6,8 +6,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link rel="stylesheet" href="assets/css/login-main.css">
+		<link rel="stylesheet" href="assets/css/header.css">
+		<script src="assets/js/header-footer-active.js"></script>
+		<link rel="stylesheet" href="assets/css/footer.css">
+
+		<link rel="stylesheet" href="assets/css/header.css">
+		<script src="assets/js/header-footer-active.js"></script>
+
+
 	</head>
 	<body class="img js-fullheight" style="background-image: url(assets/media/login/bg.jpg);">
+
+<div id="header">
+	<header>
+   	 <a href="index.html" class="logo">AAI Systems</a>
+    	<ul>
+        <li class="index"><a href="index.html">Home</a></li>
+        <li class="map"><a href="map.html#sec">Map</a></li>
+        <li class="news"><a href="news.html">News & Updates</a></li>
+        <li class="about"><a href="about.html">About</a></li>
+    </ul>    
+</header>
+		</div> 
 		<section class="section">
 			<div class="container">
 				<div class="row justify-content-center">
@@ -20,7 +40,7 @@
 						<div class="login-wrap p-0">
                             <form action="#" class="signin-form" id="loginForm">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Username" required>
+									<input id="username" type="text" class="form-control" placeholder="Username" required>
 								</div>
 								<div class="form-group">
                                     <input id="password-field" type="password" class="form-control" placeholder="Password" required>
@@ -46,6 +66,9 @@
 				</div>
 			</div>
 		</section>
+
+		<div id="footer">
+		</div>
 
   	<script src="assets/js/login-main.js"></script>
 

@@ -10,10 +10,13 @@
     font-family: sans-serif;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#2b1055, #7597de);
+    overflow-x: hidden;
+    color: #000;
   }
   
   /* Section styles */
